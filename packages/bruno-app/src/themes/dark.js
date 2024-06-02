@@ -1,170 +1,169 @@
-const darkTheme = {
-  brand: '#546de5',
-  text: '#d4d4d4',
-  textLink: '#569cd6',
-  bg: '#1e1e1e',
+const nightOwlTheme = {
+  brand: '#82aaff',
+  text: '#d6deeb',
+  textLink: '#7fdbca',
+  bg: '#011627',
 
   colors: {
     text: {
-      green: 'rgb(11 178 126)',
-      danger: '#f06f57',
-      muted: '#9d9d9d',
-      purple: '#cd56d6',
-      yellow: '#f59e0b'
+      green: '#22da6e',
+      danger: '#ef5350',
+      muted: '#697098',
+      purple: '#c792ea',
+      yellow: '#ffcb6b'
     },
     bg: {
-      danger: '#d03544'
+      danger: '#ef5350'
     }
   },
 
   input: {
-    bg: 'rgb(65, 65, 65)',
-    border: 'rgb(65, 65, 65)',
-    focusBorder: 'rgb(65, 65, 65)'
+    bg: '#1d3b53',
+    border: '#1d3b53',
+    focusBorder: '#1d3b53'
   },
 
   variables: {
-    bg: 'rgb(48, 48, 49)',
+    bg: '#011627',
 
     name: {
-      color: '#569cd6'
+      color: '#82aaff'
     }
   },
 
   menubar: {
-    bg: '#333333'
+    bg: '#011627'
   },
 
   sidebar: {
-    color: '#ccc',
-    muted: '#9d9d9d',
-    bg: '#252526',
-    dragbar: '#666666',
+    color: '#d6deeb',
+    muted: '#697098',
+    bg: '#011627',
+    dragbar: '#82aaff',
 
     badge: {
-      bg: '#3D3D3D'
+      bg: '#1d3b53'
     },
 
     search: {
-      border: '1px solid transparent',
-      bg: '#3D3D3D'
+      border: '1px solid #1d3b53',
+      bg: '#011627'
     },
 
     collection: {
       item: {
-        bg: '#37373D',
-        hoverBg: '#2A2D2F',
-        indentBorder: 'solid 1px #585858',
+        bg: '#1d3b53',
+        hoverBg: '#1d3b53',
+        indentBorder: 'solid 1px #1d3b53',
         active: {
-          indentBorder: 'solid 1px #4c4c4c'
+          indentBorder: 'solid 1px #1d3b53'
         }
       }
     },
 
     dropdownIcon: {
-      color: '#ccc'
+      color: '#d6deeb'
     }
   },
 
   welcome: {
-    heading: '#569cd6',
-    muted: '#9d9d9d'
+    heading: '#82aaff',
+    muted: '#697098'
   },
 
   dropdown: {
-    color: 'rgb(204, 204, 204)',
-    iconColor: 'rgb(204, 204, 204)',
-    bg: 'rgb(48, 48, 49)',
-    hoverBg: '#185387',
+    color: '#d6deeb',
+    iconColor: '#d6deeb',
+    bg: '#011627',
+    hoverBg: '#1d3b53',
     shadow: 'rgb(0 0 0 / 36%) 0px 2px 8px',
-    separator: '#444',
-    labelBg: '#4a4949'
+    separator: '#1d3b53',
+    labelBg: '#1d3b53'
   },
 
   request: {
     methods: {
-      get: '#8cd656',
-      post: '#cd56d6',
-      put: '#d69956',
-      delete: '#f06f57',
-      // customize these colors if needed
-      patch: '#d69956',
-      options: '#d69956',
-      head: '#d69956'
+      get: '#22da6e',
+      post: '#c792ea',
+      put: '#ffcb6b',
+      delete: '#ef5350',
+      patch: '#ffcb6b',
+      options: '#ffcb6b',
+      head: '#ffcb6b'
     }
   },
 
   requestTabPanel: {
     url: {
-      bg: '#3D3D3D',
-      icon: 'rgb(204, 204, 204)'
+      bg: '#011627',
+      icon: '#d6deeb'
     },
     dragbar: {
-      border: '#444',
-      activeBorder: '#8a8a8a'
+      border: '#1d3b53',
+      activeBorder: '#82aaff'
     },
     bodyModeSelect: {
       color: 'transparent'
     },
-    responseSendIcon: '#555',
-    responseStatus: '#ccc',
-    responseOk: '#8cd656',
-    responseError: '#f06f57',
-    responseOverlayBg: 'rgba(30, 30, 30, 0.6)'
+    responseSendIcon: '#82aaff',
+    responseStatus: '#d6deeb',
+    responseOk: '#22da6e',
+    responseError: '#ef5350',
+    responseOverlayBg: 'rgba(1, 22, 39, 0.6)'
   },
 
   collection: {
     environment: {
-      bg: '#3D3D3D',
+      bg: '#011627',
 
       settings: {
-        bg: '#3D3D3D',
+        bg: '#011627',
         sidebar: {
-          bg: '#3D3D3D',
-          borderRight: '#4f4f4f'
+          bg: '#1d3b53',
+          borderRight: '#1d3b53'
         },
         item: {
-          border: '#569cd6',
+          border: '#82aaff',
           hoverBg: 'transparent',
           active: {
             bg: 'transparent',
             hoverBg: 'transparent'
           }
         },
-        gridBorder: '#4f4f4f'
+        gridBorder: '#1d3b53'
       }
     }
   },
 
   notifications: {
-    bg: '#3D3D3D',
+    bg: '#1d3b53',
     list: {
-      bg: '3D3D3D',
-      borderRight: '#4f4f4f',
-      borderBottom: '#545454',
-      hoverBg: '#434343',
+      bg: '#1d3b53',
+      borderRight: '#1d3b53',
+      borderBottom: '#1d3b53',
+      hoverBg: '#1d3b53',
       active: {
-        border: '#569cd6',
-        bg: '#4f4f4f',
-        hoverBg: '#4f4f4f'
+        border: '#82aaff',
+        bg: '#1d3b53',
+        hoverBg: '#1d3b53'
       }
     }
   },
 
   modal: {
     title: {
-      color: '#ccc',
-      bg: 'rgb(48, 48, 49)',
-      iconColor: '#ccc'
+      color: '#d6deeb',
+      bg: '#011627',
+      iconColor: '#d6deeb'
     },
     body: {
-      color: '#ccc',
-      bg: 'rgb(48, 48, 49)'
+      color: '#d6deeb',
+      bg: '#011627'
     },
     input: {
-      bg: 'rgb(65, 65, 65)',
-      border: 'rgb(65, 65, 65)',
-      focusBorder: 'rgb(65, 65, 65)'
+      bg: '#1d3b53',
+      border: '#1d3b53',
+      focusBorder: '#1d3b53'
     },
     backdrop: {
       opacity: 0.2
@@ -173,91 +172,91 @@ const darkTheme = {
 
   button: {
     secondary: {
-      color: 'rgb(204, 204, 204)',
-      bg: '#185387',
-      border: '#185387',
-      hoverBorder: '#696969'
+      color: '#d6deeb',
+      bg: '#1d3b53',
+      border: '#1d3b53',
+      hoverBorder: '#82aaff'
     },
     close: {
-      color: '#ccc',
+      color: '#d6deeb',
       bg: 'transparent',
       border: 'transparent',
       hoverBorder: ''
     },
     disabled: {
-      color: '#a5a5a5',
-      bg: '#626262',
-      border: '#626262'
+      color: '#697098',
+      bg: '#1d3b53',
+      border: '#1d3b53'
     },
     danger: {
       color: '#fff',
-      bg: '#dc3545',
-      border: '#dc3545'
+      bg: '#ef5350',
+      border: '#ef5350'
     }
   },
 
   tabs: {
     active: {
-      color: '#ccc',
-      border: '#569cd6'
+      color: '#d6deeb',
+      border: '#82aaff'
     }
   },
 
   requestTabs: {
-    color: '#ccc',
-    bg: '#2A2D2F',
-    bottomBorder: '#444',
+    color: '#d6deeb',
+    bg: '#1d3b53',
+    bottomBorder: '#1d3b53',
     icon: {
-      color: '#9f9f9f',
-      hoverColor: 'rgb(204, 204, 204)',
-      hoverBg: '#1e1e1e'
+      color: '#697098',
+      hoverColor: '#d6deeb',
+      hoverBg: '#011627'
     },
     active: {
-      bg: '#3D3D3D'
+      bg: '#011627'
     },
     shortTab: {
-      color: '#ccc',
+      color: '#d6deeb',
       bg: 'transparent',
-      hoverColor: '#ccc',
-      hoverBg: '#3D3D3D'
+      hoverColor: '#d6deeb',
+      hoverBg: '#1d3b53'
     }
   },
 
   codemirror: {
-    bg: '#1e1e1e',
-    border: '#373737',
+    bg: '#011627',
+    border: '#1d3b53',
     gutter: {
-      bg: '#262626'
+      bg: '#1d3b53'
     },
     variable: {
-      valid: 'rgb(11 178 126)',
-      invalid: '#f06f57',
+      valid: '#22da6e',
+      invalid: '#ef5350',
       info: {
-        color: '#ce9178',
-        bg: 'rgb(48,48,49)',
+        color: '#d6deeb',
+        bg: '#011627',
         boxShadow: 'rgb(0 0 0 / 36%) 0px 2px 8px'
       }
     }
   },
 
   table: {
-    border: '#333',
+    border: '#1d3b53',
     thead: {
-      color: 'rgb(204, 204, 204)'
+      color: '#d6deeb'
     },
-    striped: '#2A2D2F',
+    striped: '#1d3b53',
     input: {
-      color: '#ccc'
+      color: '#d6deeb'
     }
   },
 
   plainGrid: {
-    hoverBg: '#3D3D3D'
+    hoverBg: '#1d3b53'
   },
 
   scrollbar: {
-    color: 'rgb(52 51 49)'
+    color: '#1d3b53'
   }
 };
 
-export default darkTheme;
+export default nightOwlTheme;
