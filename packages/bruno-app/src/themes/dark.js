@@ -95,7 +95,7 @@ const nightOwlTheme = {
 
   requestTabPanel: {
     url: {
-      bg: '#011627',
+      bg: '#1d3b53',
       icon: '#d6deeb'
     },
     dragbar: {
@@ -204,15 +204,15 @@ const nightOwlTheme = {
 
   requestTabs: {
     color: '#d6deeb',
-    bg: '#1d3b53',
+    bg: '#011627',
     bottomBorder: '#1d3b53',
     icon: {
       color: '#697098',
       hoverColor: '#d6deeb',
-      hoverBg: '#011627'
+      hoverBg: '#1d3b53'
     },
     active: {
-      bg: '#011627'
+      bg: '#1d3b53'
     },
     shortTab: {
       color: '#d6deeb',
